@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Game</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container1">
+            <!-- QUESTIONS -->
+            <div class="container">
+                <form>
+                    <div class="problem">
+                        <label>What is 2 + 2? </label><br>
+                        <input type="text" id="problem1" onfocus="this.value=''" value="?">
+                    </div>
+                    <div class="problem">
+                        <label>What is 5 x 7? </label><br>
+                        <input type="text" id="problem2" id="problem1" onfocus="this.value=''" value="?"="?">
+                    </div>
+                    <div class="problem">
+                        <label>What is 10 - 3? </label><br>
+                        <input type="text" id="problem3" id="problem1" onfocus="this.value=''" value="?">
+
+                    </div>
+                    <!-- Button - check answers-->
+                    <div class="btnn">
+                        <div class="buttons">
+                            <button type="button" id="submitBut">Check Answer</button>
+                        </div>
+                    </div>
+
+                    <!-- RESULTS -->
+
+                    <!-- Score/Error -->
+                    <p id="error-msg"></p>
+                    <h2 id="score"></h2>
+
+                    <!-- Result description -->
+
+                    <div id="result">
+                        <!--LOADER-->
+                        <!--  Loader style: Bouncing Loader from CSS Loader (https://css-loader.netlify.app/) -->
+                        <div class="bouncing-loader"></div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    
+    <!-- JS link -->
+    <script src="script2.js"></script>
+</body>
+
+</html>
